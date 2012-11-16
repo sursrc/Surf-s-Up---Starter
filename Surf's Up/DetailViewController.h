@@ -6,8 +6,9 @@
 //  Copyright 2011 komorka technology, llc. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 @interface DetailViewController : UIViewController
+{
+    IBOutlet UISwitch *rentSwitch;
+}
 
 @end
